@@ -1,0 +1,28 @@
+body{
+    font-size: 18px;
+}
+
+header{
+    background-color: rgb(172, 172, 188);
+}
+
+section{
+    padding: 45px 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid magenta;
+    max-width: 620px;
+    /* min-width: 500px; */
+}
+
+.section-two{
+    background-color: #2e354f;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+}
