@@ -1,0 +1,50 @@
+h1{
+    font-size: 2rem;
+    margin-bottom: 2em;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    color: black;
+}
+
+.card{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #9299f4;
+    max-width: 1440px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #FFE600;
+    color: black;
+    padding: .5em 1.25em;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background: orange;
+}
+
+.btn-big{
+    font-size: 1.5rem;
+}
+
+.btn-small{
+    font-size: .75rem;
+}
+
+.accent-color {
+    color: #FFE600;
+}
+
+.links {
+    margin-top: 0;
+    margin-bottom: 0;
+}
