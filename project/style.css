@@ -5,6 +5,11 @@ body {
   font-weight: 300;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 /* ====================
 Typography
 ==================== */
@@ -80,9 +85,19 @@ header {
   border: 1px solid magenta;
 }
 
-.container-nav {
+.container-flex {
   display: flex;
   justify-content: space-between;
+}
+
+main{
+    width: 75%;
+    border: 1px solid magenta;
+}
+
+aside{
+    width: 20%;
+    border: 1px solid magenta;
 }
 
 /* navigation */
@@ -118,7 +133,7 @@ nav a:focus {
 }
 
 @media screen and (max-width: 675px) {
-  .container-nav {
+  .container-flex {
     flex-direction: column;
   }
 
