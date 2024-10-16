@@ -82,6 +82,7 @@ header {
   background: #f8f8f8;
   padding: 2em 0;
   text-align: center;
+  margin-bottom: 3em;
 }
 
 .container {
@@ -162,7 +163,7 @@ nav a:focus {
   margin-bottom: 2em;
 }
 
-.article-recent{
+.article-recent {
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
@@ -176,13 +177,13 @@ nav a:focus {
   order: 1;
 }
 
-@media (min-width: 676px){
+@media (min-width: 676px) {
   .article-recent {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .article-recent-main{
+  .article-recent-main {
     width: 68%;
   }
 
@@ -190,10 +191,23 @@ nav a:focus {
     width: 30%;
   }
 
-  .article-image{
+  .article-image {
     width: 100%;
     min-height: 250px;
     object-fit: cover;
     object-position: left;
+  }
+
+  .article-featured {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-image {
+    order: -2;
+  }
+
+  .article-info{
+    order: -1;
   }
 }
