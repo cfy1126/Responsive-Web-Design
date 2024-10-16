@@ -177,11 +177,23 @@ nav a:focus {
 }
 
 @media (min-width: 676px){
-  .article-recent-main{
-    margin-top: -2.5em;
+  .article-recent {
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .article-info{
-    text-align: right;
+  .article-recent-main{
+    width: 68%;
+  }
+
+  .article-recent-secondary {
+    width: 30%;
+  }
+
+  .article-image{
+    width: 100%;
+    min-height: 250px;
+    object-fit: cover;
+    object-position: left;
   }
 }
