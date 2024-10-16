@@ -10,6 +10,13 @@ img {
   display: block;
 }
 
+.image-full {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
 /* ====================
 Typography
 ==================== */
@@ -26,6 +33,10 @@ h3 {
 h1 {
   color: #143174;
   margin: 0;
+}
+
+h3{
+  color: #1792d2;
 }
 
 a {
@@ -167,11 +178,11 @@ nav a:focus {
 }
 
 .current-page {
-  /* border-bottom: 1px solid #707070; */
+  border-bottom: 1px solid #707070;
 }
 
 .current-page:hover {
-  /* color: #707070; */
+  color: #707070;
 }
 
 /* article */
@@ -247,6 +258,10 @@ nav a:focus {
   flex-direction: column;
   border-bottom: 1px solid #707070;
   margin-bottom: 1em;
+}
+
+.widget-recent-post-title{
+  color: #143774;
 }
 
 .widget-recent-post:last-child{
